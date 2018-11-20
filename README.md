@@ -1,7 +1,10 @@
 # powerd
+
+## What it is
 Simple daemon to handle battery power levels
 
-# usage
+## How it looks like
+```
 NAME:
   powerd - Simple daemon to handle battery power levels
 
@@ -22,3 +25,4 @@ GLOBAL OPTIONS:
   --exec-command value    Sets the exec command (default: "poweroff")
   --help, -h              show help
   --version, -v           print the version
+```
