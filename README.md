@@ -26,3 +26,9 @@ GLOBAL OPTIONS:
   --help, -h              show help
   --version, -v           print the version
 ```
+
+## How to build
+
+1. `git clone git@github.com:shizonic/powerd.git`
+
+2. `cd powerd && make build`
