@@ -27,8 +27,14 @@ GLOBAL OPTIONS:
   --version, -v           print the version
 ```
 
-## How to build
+## How to build & install
 
 1. `git clone git@github.com:shizonic/powerd.git`
 
 2. `cd powerd && make build`
+
+3. `sudo make install`
+
+## How to uninstall
+
+1. `sudo make uninstall`
