@@ -12,7 +12,7 @@ build: clean_build install_deps
 	go build -o build/powerd main.go battery_info.go config.go daemon.go
 install:
 	mkdir -p "$(DESTDIR)$(BINPREFIX)"
-	cp "build/powerd" "$(BINPREFIX)/"
+	install -m 755 "build/powerd" "$(BINPREFIX)"
 uninstall:
 	rm -f "$(BINPREFIX)/powerd"
 clean: clean_build
